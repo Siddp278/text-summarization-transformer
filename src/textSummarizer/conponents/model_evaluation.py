@@ -11,8 +11,6 @@ from textSummarizer.entity import ModelEvaluationConfig
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
         self.config = config
-
-
     
     def generate_batch_sized_chunks(self,list_of_elements, batch_size):
         """split the dataset into smaller batches that we can process simultaneously

@@ -1,4 +1,6 @@
 # The root directory where all stuff will be stored when running the yaml file
+# The SAMSum dataset is a collection of dialogues or conversations between two people, specifically designed for summarization tasks. It stands for "Simplifying Abstract Meaning Representation for Summarization" and was introduced as part of the Dialogue State Tracking Challenge (DSTC8) in 2019
+
 artifacts_root: artifacts
 
 
